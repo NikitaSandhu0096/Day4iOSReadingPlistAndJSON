@@ -20,10 +20,24 @@ class ViewController: UIViewController {
         if let bundlePath = Bundle.main.path(forResource: "Employee", ofType: "plist"){
 //            print(bundlePath)
             if let dictionary = NSMutableDictionary(contentsOfFile: bundlePath){
-                print(dictionary)
+//                print(dictionary)
                 if let countries = dictionary["countries"] as? [String]{
                     for v in countries{
                         print(v)
+                    }
+                }
+                if let users = dictionary["users"] as? [[String : String]]{
+                    var flag = false
+                    for user in users{
+//                        print(user)
+                        if user["username"] == "abc" && user["password"] == "abc@123"{
+                            flag = true
+                        }
+                    }
+                    if flag == true{
+                        print("Valid User")
+                    }else{
+                        print("Invalid User")
                     }
                 }
             }

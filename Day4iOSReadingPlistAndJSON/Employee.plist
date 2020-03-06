@@ -2,6 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>users</key>
+	<array>
+		<dict>
+			<key>username</key>
+			<string>abc</string>
+			<key>password</key>
+			<string>abc@123</string>
+		</dict>
+		<dict>
+			<key>username</key>
+			<string>def</string>
+			<key>password</key>
+			<string>def@456</string>
+		</dict>
+	</array>
 	<key>countries</key>
 	<array>
 		<string>Canada</string>

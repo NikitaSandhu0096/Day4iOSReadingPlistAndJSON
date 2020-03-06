@@ -13,6 +13,7 @@
 		EEF884FE24130F1900AF7464 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF884FC24130F1900AF7464 /* Main.storyboard */; };
 		EEF8850024130F1B00AF7464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF884FF24130F1B00AF7464 /* Assets.xcassets */; };
 		EEF8850324130F1B00AF7464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF8850124130F1B00AF7464 /* LaunchScreen.storyboard */; };
+		EEF8850B2413102D00AF7464 /* Employee.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEF8850A2413102D00AF7464 /* Employee.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EEF884FF24130F1B00AF7464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEF8850224130F1B00AF7464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEF8850424130F1B00AF7464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF8850A2413102D00AF7464 /* Employee.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Employee.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EEF884FF24130F1B00AF7464 /* Assets.xcassets */,
 				EEF8850124130F1B00AF7464 /* LaunchScreen.storyboard */,
 				EEF8850424130F1B00AF7464 /* Info.plist */,
+				EEF8850A2413102D00AF7464 /* Employee.plist */,
 			);
 			path = Day4iOSReadingPlistAndJSON;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF8850B2413102D00AF7464 /* Employee.plist in Resources */,
 				EEF8850324130F1B00AF7464 /* LaunchScreen.storyboard in Resources */,
 				EEF8850024130F1B00AF7464 /* Assets.xcassets in Resources */,
 				EEF884FE24130F1900AF7464 /* Main.storyboard in Resources */,
